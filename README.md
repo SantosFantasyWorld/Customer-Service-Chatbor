@@ -74,7 +74,7 @@ openai api completions.create -m davinci:ft-personal-2023-08-29-06-04-23 -p <YOU
 ~~~
 async function fetchReply(){
     const response = await openai.createCompletion({
-        model: 'davinci:ft-personal-2023-08-23-01-36-15', //changed from 'davinci'
+        model: 'davinci:ft-personal-2023-08-29-06-04-23', //changed from 'davinci'
         prompt: conversationStr, //changed from 'messages'
         presence_penalty: 0,
         frequency_penalty: 0.3,
