@@ -4,7 +4,7 @@ This is a  Customer Service Robot that utilizes Openai API key to fulfill its fu
 
 Here is the basic illustration of Chatbot:
 
-![csvfile](images\屏幕截图 2023-08-29 161650.png)
+[csvfile](images\屏幕截图 2023-08-29 161650.png)
 
 prerequisite:
 
