@@ -4,7 +4,7 @@ This is a  Customer Service Robot that utilizes Openai API key to fulfill its fu
 
 Here is the basic illustration of Chatbot:
 
-![csvfile](images\161650.png)
+![csvfile](images/161650.png)
 
 prerequisite:
 
@@ -17,7 +17,7 @@ The first thing we need to do is to make a fine-tuned model by using the library
 
 1. First, write a Python script that divides into two parts- prompts and completion. Feed each segment to Chatgpt and ask him to ask relevant questions based on the text content. Record the questions and answers in the file wingit.csv. The format is as follows:
 
-   ![csvfile](images\210038.png)
+   ![csvfile](images/210038.png)
 
 2. Then format the data in the JSONL format required for the fine-tune model:
 
@@ -27,7 +27,7 @@ The first thing we need to do is to make a fine-tuned model by using the library
 
    The result is as follows:
 
-   ![Jsonlfile](images\214105.png)
+   ![Jsonlfile](images/214105.png)
 
 3. Set the key for open AI. Set your environment variables by adding the following line to your shell initialization script (such as. bashrc. zshrc, etc.) or running it from the command line before the fine-tuning command: (The following are all run from Window command line)
 
