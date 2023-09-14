@@ -22,7 +22,7 @@ The first thing we need to do is to make a fine-tuned model by using the library
 2. Then format the data in the JSONL format required for the fine-tune model:
 
    ~~~
-   openai tools fine tunes.prepare data -f wingit.csv
+   openai tools fine_tunes.prepare data -f wingit.csv
    ~~~
 
    The result is as follows:
